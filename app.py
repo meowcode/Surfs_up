@@ -6,3 +6,8 @@ app = Flask(__name__)
 
 def hello_world():
     return 'Hello world'
+
+@app.home('/')
+
+def moe():
+    return 'Hello Moe'
